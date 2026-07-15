@@ -7,7 +7,7 @@ body {
 }
 
 #my-first-flexbox {
-    background-color: rgb(231, 193, 146);
+    background-color: rgb(253, 194, 245);
     color: rgb(153, 1, 1);
 }
 .flex-container {
@@ -38,7 +38,7 @@ body {
 }
 
 .grid-item {
-    background-color: rgb(247, 36, 36);
+    background-color: rgb(52, 24, 97);
     color: rgb(0, 54, 102);
     border: 3px solid rgba(0, 0, 0, 0.8);
     width: 100px;
