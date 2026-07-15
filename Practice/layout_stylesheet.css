@@ -28,17 +28,19 @@ body {
 }
 
 .grid-container {
-    display: grid;
+    width: 346px;
+    display: inline-grid;
+    background-color: rgb(255, 255, 255);
     grid-template-rows: 100px 100px 100px;
     grid-template-columns: 100px 100px 100px;
     row-gap: 10px;
     column-gap: 20px;
 }
 
-.griditem {
-    background-color: rgb(230, 211, 109);
-    color: aliceblue;
-    border: 3px solid black;
+.grid-item {
+    background-color: rgb(247, 36, 36);
+    color: rgb(0, 54, 102);
+    border: 3px solid rgba(0, 0, 0, 0.8);
     width: 100px;
     text-align: center;
     line-height: 100px;
