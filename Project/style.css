@@ -42,4 +42,35 @@ nav{
     box-shadow:0 4px 10px rgba(0,0,0,0.2);
 }
 }
+.song-list span{
+    color:#8a2be2;
+    font-size:14px;
+    font-style:italic;
+    display:block;
+    margin-top:5px;
+}
+.song-list h3{
+    color:#6a0dad;
+    margin:40px 0 20px;
+    text-align:center;
+    font-size:28px;
+}
+.song-list ul {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+    list-style:none;
+    padding:0;
+    margin-bottom:40px;
+}
+.song-list li {
+    width: 150px;
+    background:white;
+    padding:15px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
 

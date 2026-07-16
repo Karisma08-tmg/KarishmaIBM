@@ -30,7 +30,7 @@ body {
 .grid-container {
     width: 346px;
     display: inline-grid;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(122, 40, 143);
     grid-template-rows: 100px 100px 100px;
     grid-template-columns: 100px 100px 100px;
     row-gap: 10px;
@@ -38,8 +38,8 @@ body {
 }
 
 .grid-item {
-    background-color: rgb(52, 24, 97);
-    color: rgb(0, 54, 102);
+    background-color: rgb(51, 103, 172);
+    color: rgb(190, 223, 252);
     border: 3px solid rgba(0, 0, 0, 0.8);
     width: 100px;
     text-align: center;
