@@ -8,8 +8,9 @@ html {
     scroll-behavior:smooth;
 }
 body {
-    background:linear-gradient(to bottom,#f8f2ff,#f1e6ff,#ffffff);
-    color:#333;
+    background-color: #eec6ec;
+    color:#0f0661;
+    font-size:18px;
 }
 .logo {
     display:flex;
@@ -30,21 +31,11 @@ nav {
 body{
     background-color:#f5edff;
 }
-nav{
-    background-color:#8a2be2;
-    color:white;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:18px 40px;
-    position:sticky;
-    top:0;
-    box-shadow:0 4px 10px rgba(0,0,0,0.2);
-}
+
 }
 .song-list span{
     color:#8a2be2;
-    font-size:14px;
+    font-size:15px;
     font-style:italic;
     display:block;
     margin-top:5px;
@@ -59,18 +50,107 @@ nav{
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
-    gap:15px;
+    gap:30px;
     list-style:none;
     padding:0;
     margin-bottom:40px;
 }
 .song-list li {
-    width: 150px;
+    width: 200px;
     background:white;
-    padding:15px;
-    border-radius:12px;
+    padding:25px;
+    border-radius:25px;
     text-align:center;
-    box-shadow:0 4px 10px rgba(0,0,0,0.1);
-    transition:0.3s;
+    box-shadow:0 4px 10px rgba(91, 20, 97, 0.1);
 }
-
+.hero {
+    text-align:center;
+    padding:120px 20px;
+}
+.hero h1 {
+    font-size:65px;
+    color:#851394;
+    margin-bottom:20px;
+    text-shadow:2px 2px 10px #af6efa;
+}
+.song-list h2 {
+    text-align:center;
+    padding:30px;
+    text-shadow:2px 2px 10px #a96dee;
+    font-size: 60px;
+    color: #6a0dad;
+}
+.cards {
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:65px;
+    padding:30px;  
+}
+.card {
+    width:300px;
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    text-align:center;
+}
+.card img {
+    width:100%;
+    height:310px;
+    object-fit:cover;
+}
+.about-text {
+    width:75%;
+    margin:auto;
+    text-align:center;
+    line-height:30px;
+    font-size:18px;
+}
+nav ul {
+    flex-direction:column;
+    margin-top:15px;
+}
+nav {
+    background:#8a2be2;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0.02px;
+    position:sticky;
+    top:0;
+    box-shadow:0 4px 10px rgba(40, 12, 117, 0.2);
+}
+form {
+    width:60%;
+    margin:40px auto;
+}
+form input,
+form textarea {
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #d3b5ff;
+    border-radius:10px;
+    font-size:16px;
+    outline:none;
+}
+form button {
+    background:#8a2be2;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:25px;
+    font-size:16px;
+    cursor:pointer;
+}
+footer {
+    background:#8a2be2;
+    color:white;
+    text-align:center;
+    padding:30px;
+    margin-top:60px;
+}
+footer p {
+    font-size:15px;
+ }
