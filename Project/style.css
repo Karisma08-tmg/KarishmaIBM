@@ -4,7 +4,6 @@
     box-sizing:border-box;
     font-family:Arial, sans-serif;
 }
-<<<<<<< HEAD
 html {
     scroll-behavior:smooth;
 }
@@ -28,25 +27,19 @@ body {
 }
 nav {
     background:#8a2be2;
-=======
 body{
     background-color:#f5edff;
 }
-
 nav{
     background-color:#8a2be2;
->>>>>>> 7c134779cdc94f82c0d6fdf3c0a1d521d785fdca
     color:white;
     display:flex;
     justify-content:space-between;
     align-items:center;
-<<<<<<< HEAD
     padding:18px 40px;
     position:sticky;
     top:0;
     box-shadow:0 4px 10px rgba(0,0,0,0.2);
 }
-=======
-    padding:15px 30px;
 }
->>>>>>> 7c134779cdc94f82c0d6fdf3c0a1d521d785fdca
+
