@@ -4,15 +4,35 @@
     box-sizing:border-box;
     font-family:Arial, sans-serif;
 }
-body{
-    background-color:#f5edff;
+html {
+    scroll-behavior:smooth;
 }
-
-nav{
-    background-color:#8a2be2;
+body {
+    background:linear-gradient(to bottom,#f8f2ff,#f1e6ff,#ffffff);
+    color:#333;
+}
+.logo {
+    display:flex;
+    align-items:center;
+}
+.logo img {
+    width: 70px;
+    height:70px;
+    border-radius:50%;
+    margin-right:10px;
+}
+.logo h2 {
+    color:white;
+    font-size:28px;
+}
+nav {
+    background:#8a2be2;
     color:white;
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:15px 30px;
+    padding:18px 40px;
+    position:sticky;
+    top:0;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
 }
