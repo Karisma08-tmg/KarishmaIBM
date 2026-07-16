@@ -80,6 +80,12 @@ body{
     font-size: 60px;
     color: #6a0dad;
 }
+li {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    padding: 8px 12px;
+}
 .cards {
     display:flex;
     justify-content:center;
